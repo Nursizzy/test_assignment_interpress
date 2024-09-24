@@ -70,9 +70,10 @@ src/
 │   ├── CustomDateRangePicker.tsx
 │   ├── CustomDayPicker.tsx
 │   ├── CustomTimeRangePicker.tsx
+├── features/
 │   └── SchedulePlanner.tsx
-├── data/
-│   └── index.tsx (contains constant data like HOURS_TYPES, BREAK_TIMES, etc.)
+├── shared/
+│   └── constants.tsx (contains constant data like HOURS_TYPES, BREAK_TIMES, etc.)
 ├── App.tsx
 └── main.tsx
 ```
