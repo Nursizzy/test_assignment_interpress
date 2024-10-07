@@ -42,7 +42,7 @@ const App = () => {
 
   return (
     <Flex justify="center" align="center">
-      <Button onClick={handleClose}>
+      <Button onClick={()=>setOpenModal(true)}>
         Открыть планировщик
       </Button>
 
